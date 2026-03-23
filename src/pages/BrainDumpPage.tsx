@@ -4,7 +4,7 @@ export function BrainDumpPage() {
   return (
     <div className="max-w-3xl mx-auto px-4 sm:px-6 py-16">
       <a href="https://mybraindump.io" target="_blank" rel="noopener noreferrer" className="block mb-10 group">
-        <h1 className="text-3xl font-bold tracking-tight text-text group-hover:text-accent transition-[color] duration-75">Brain Dump</h1>
+        <h1 className="text-3xl font-bold tracking-tight text-text group-hover:text-text-muted">Brain Dump</h1>
         <p className="mt-2 text-text-muted text-lg">Your brain, searchable</p>
       </a>
 
