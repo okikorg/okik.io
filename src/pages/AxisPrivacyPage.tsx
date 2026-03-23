@@ -5,11 +5,11 @@ export function AxisPrivacyPage() {
     <div className="max-w-3xl mx-auto px-6 py-16">
       <PageHeader title="Axis — Privacy Policy" />
 
-      <div className="space-y-6 text-[#a0a0a0] leading-relaxed">
+      <div className="space-y-6 text-text-muted leading-relaxed">
         <p className="text-sm">Last updated: March 23, 2026</p>
 
         <section>
-          <h2 className="text-white font-semibold mb-2">Overview</h2>
+          <h2 className="text-text font-semibold mb-2">Overview</h2>
           <p>
             Axis is a local-only markdown editor for macOS. Your privacy is
             fundamental to how Axis is built — the app is designed to work
@@ -18,7 +18,7 @@ export function AxisPrivacyPage() {
         </section>
 
         <section>
-          <h2 className="text-white font-semibold mb-2">Data Collection</h2>
+          <h2 className="text-text font-semibold mb-2">Data Collection</h2>
           <p>
             Axis does not collect, transmit, or store any personal data. There
             are no accounts, no analytics, no tracking, and no network requests.
@@ -27,7 +27,7 @@ export function AxisPrivacyPage() {
         </section>
 
         <section>
-          <h2 className="text-white font-semibold mb-2">Local Storage</h2>
+          <h2 className="text-text font-semibold mb-2">Local Storage</h2>
           <p>
             Axis uses macOS UserDefaults solely to persist your app preferences
             (such as theme selection and window state). This data is stored
@@ -36,7 +36,7 @@ export function AxisPrivacyPage() {
         </section>
 
         <section>
-          <h2 className="text-white font-semibold mb-2">File Access</h2>
+          <h2 className="text-text font-semibold mb-2">File Access</h2>
           <p>
             Axis runs inside the macOS App Sandbox. It only accesses files and
             folders you explicitly open. Folder access is persisted between
@@ -46,7 +46,7 @@ export function AxisPrivacyPage() {
         </section>
 
         <section>
-          <h2 className="text-white font-semibold mb-2">Third Parties</h2>
+          <h2 className="text-text font-semibold mb-2">Third Parties</h2>
           <p>
             Axis does not integrate with any third-party services, SDKs, or
             analytics platforms. There are no cookies, no advertising identifiers,
@@ -55,12 +55,12 @@ export function AxisPrivacyPage() {
         </section>
 
         <section>
-          <h2 className="text-white font-semibold mb-2">Contact</h2>
+          <h2 className="text-text font-semibold mb-2">Contact</h2>
           <p>
             If you have questions about this policy, contact us at{" "}
             <a
               href="mailto:admin@okik.io"
-              className="text-white underline underline-offset-4 hover:text-[#a0a0a0] transition-colors"
+              className="text-accent underline underline-offset-4 hover:text-accent/70 transition-colors"
             >
               admin@okik.io
             </a>

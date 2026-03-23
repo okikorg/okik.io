@@ -1,6 +1,7 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+import { useEffect } from "react";
 import "./index.css";
 import { Layout } from "./components/Layout";
 import { HomePage } from "./pages/HomePage";
@@ -11,9 +12,18 @@ import { AxisSupportPage } from "./pages/AxisSupportPage";
 import { BrainDumpPage } from "./pages/BrainDumpPage";
 import { NotFoundPage } from "./pages/NotFoundPage";
 
+function ScrollToTop() {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+  return null;
+}
+
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <BrowserRouter>
+      <ScrollToTop />
       <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<HomePage />} />

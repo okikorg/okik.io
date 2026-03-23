@@ -9,7 +9,7 @@ export function ProductsPage() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl">
         <ProductCard
           name="Axis"
-          description="A minimal markdown editor for macOS. Distraction-free writing with keyboard-first navigation, inline formatting, and full App Sandbox security."
+          description="A minimal markdown editor for macOS. Distraction-free writing with keyboard-first navigation."
           href="/products/axis"
         />
         <ProductCard
