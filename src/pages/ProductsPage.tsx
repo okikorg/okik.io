@@ -14,9 +14,8 @@ export function ProductsPage() {
         />
         <ProductCard
           name="Brain Dump"
-          description="AI-powered note-taking for capturing and connecting your ideas. Organize thoughts naturally with intelligent suggestions."
+          description="Your brain, searchable. A smarter way to capture, connect, and find your thoughts."
           href="/products/brain-dump"
-          badge="Coming soon"
         />
       </div>
     </div>
